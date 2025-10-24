@@ -5,8 +5,11 @@ export default function decorate(block) {
   button.textContent = 'Click me!';
 
   // Add behavior
-  button.addEventListener('click', () => {
-    alert('You clicked the special button!');
+  button.addEventListener('click', async () => {
+    console.log('aqui')
+    let res = await fetch("https://publish-p153442-e1604645.adobeaemcloud.com/graphql/execute.json/aem-demo-assets/getAllPruebaTelcel")
+    let data = await res.json()
+    console.log('data',data)
   });
 
   // Clear any existing content in the block (optional)

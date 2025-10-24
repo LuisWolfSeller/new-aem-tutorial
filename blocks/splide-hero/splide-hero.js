@@ -22,9 +22,9 @@ export default async function decorate(block) {
     <div class="splide">
       <div class="splide__track">
         <ul class="splide__list">
-          <li class="splide__slide"><img src="https://picsum.photos/id/1015/800/400" alt=""></li>
-          <li class="splide__slide"><img src="https://picsum.photos/id/1020/800/400" alt=""></li>
-          <li class="splide__slide"><img src="https://picsum.photos/id/1035/800/400" alt=""></li>
+          <li class="splide__slide"><div class="img-container"><img src="https://picsum.photos/id/1015/800/400" alt=""></div></li>
+          <li class="splide__slide"><div class="img-container"><img src="https://picsum.photos/id/1020/800/400" alt=""></div></li>
+          <li class="splide__slide"><div class="img-container"><img src="https://picsum.photos/id/1035/800/400" alt=""></div></li>
         </ul>
       </div>
     </div>
