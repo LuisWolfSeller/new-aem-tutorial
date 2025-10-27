@@ -7,7 +7,7 @@ export default function decorate(block) {
   // Add behavior
   button.addEventListener('click', async () => {
     console.log('aqui')
-    let res = await fetch("https://publish-p153442-e1604645.adobeaemcloud.com/graphql/execute.json/aem-demo-assets/getAllPruebaTelcel")
+    let res = await fetch("https://publish-p131012-e1277260.adobeaemcloud.com/graphql/execute.json/bimbodam/first%20query")
     let data = await res.json()
     console.log('data',data)
   });
