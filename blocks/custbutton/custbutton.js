@@ -8,8 +8,7 @@ export default function decorate(block) {
   button.addEventListener('click', async () => {
     console.log('aqui')
     let res = await fetch("https://publish-p131012-e1277260.adobeaemcloud.com/graphql/execute.json/bimbodam/second-query",{
-      method: "GET",
-      credentials: "include",
+      method: "GET",      
       headers: { "Accept": "application/json" }
     })
     let data = await res.json()
