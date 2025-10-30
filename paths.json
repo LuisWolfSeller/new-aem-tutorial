@@ -1,0 +1,10 @@
+{
+  "mappings": [
+    "/content/LD-Telcel-POC/:/",
+    "/content/LD-Telcel-POC/configuration:/.helix/config.json",
+    "/content/LD-Telcel-POC/metadata:/metadata.json"
+  ],
+  "includes": [
+    "/content/LD-Telcel-POC/"
+  ]
+}
