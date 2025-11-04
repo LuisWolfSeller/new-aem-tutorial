@@ -1,5 +1,0 @@
-mountpoints:
-  /:
-    url: "https://author-p153442-e1604645.adobeaemcloud.com/bin/franklin.delivery/LuisWolfSeller/new-aem-tutorial/main"
-    type: "markup"
-    suffix: ".html"
